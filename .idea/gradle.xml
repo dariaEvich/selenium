@@ -4,6 +4,15 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/lesson_3" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/lesson_3" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/task_01" />
         <option name="gradleJvm" value="1.8" />
         <option name="modules">
@@ -18,6 +27,15 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/task_02" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/task_03" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/task_03" />
           </set>
         </option>
       </GradleProjectSettings>
