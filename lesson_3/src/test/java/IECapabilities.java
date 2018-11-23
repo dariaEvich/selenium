@@ -39,6 +39,7 @@ public class IECapabilities {
     public void ieCapabilities(){
         InternetExplorerOptions opt = new InternetExplorerOptions();
         opt.setCapability("unexpectedAlertBehaviour", "dismiss");
+        opt.setCapability("InternetExplorerDriver.REQUIRE_WINDOW_FOCUS", "dismiss");
         driver = new InternetExplorerDriver(opt);
     }
 

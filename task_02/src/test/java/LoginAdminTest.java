@@ -13,12 +13,13 @@ public class LoginAdminTest {
     @Before
     public void start() {
         driver = new ChromeDriver();
+
         wait = new WebDriverWait(driver, 10);
     }
 
     @Test
     public void loginTest() {
-        driver.get("http://localhost/litecart/admin/");
+        driver.get("http://www.localhost/litecart/admin/");
         driver.findElement(By.name("username")).sendKeys("admin");
         driver.findElement(By.name("password")).sendKeys("admin");
         driver.findElement(By.name("login")).submit();
