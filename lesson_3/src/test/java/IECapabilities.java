@@ -43,6 +43,13 @@ public class IECapabilities {
         driver = new InternetExplorerDriver(opt);
     }
 
+    @Test
+    public void ieCapabilitiesList(){
+        InternetExplorerOptions opt = new InternetExplorerOptions();
+        opt.setCapability("start-fullscreen", "true");
+        driver = new InternetExplorerDriver(opt);
+    }
+
     @After
     public void stop() {
         driver.close();

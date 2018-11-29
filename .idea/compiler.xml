@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="lesson_04_main" target="1.8" />
       <module name="lesson_04_test" target="1.8" />
+      <module name="lesson_05_main" target="1.8" />
+      <module name="lesson_05_test" target="1.8" />
       <module name="lesson_3_main" target="1.8" />
       <module name="lesson_3_test" target="1.8" />
       <module name="task_01_main" target="1.8" />
